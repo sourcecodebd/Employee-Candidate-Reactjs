@@ -6,7 +6,7 @@ https://soft-tech-limited.netlify.app/
 [Nafi Mahmud][author]
 
 [author]: https://sourcecodebd.github.io/nafi.com/
-Hi There! This is a simple employee assigning related app that I made using React JS, CSS3. I have fetched data through own made JSON server. Here are the functionality given below.
+Hi There! This is a simple employee assigning related app that I made using React JS, CSS3. I have fetched data through my own made JSON server. Here is the functionality is given below.
 
 # About App
 ## 1. Can assign new employee by monitoring their information and biodata.
