@@ -1,0 +1,112 @@
+.heading-container{
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgba(216, 199, 199, 0.2), rgba(128, 117, 117, 0.2));
+    margin: 0
+}
+.heading-text{
+    margin: 0;
+    padding: 5px 30px;
+}
+.heading-image img{
+    width: 70%;
+}
+.budget{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-image: linear-gradient(rgba(216, 199, 199, 0.2), rgba(128, 117, 117, 0.2));
+}
+.header{
+    text-align: center;
+}
+.logo{
+    width: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+nav{
+    background-color: white;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    font-weight: 450;
+    font-size: 17px;
+    line-height: 60px;
+    caret-color: transparent;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px;
+    line-height: 60px;
+    text-align: justify;
+}
+.navbar a:hover{
+    background-color:red;
+    color: white;
+}
+.menubar, .mobile-nav{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .heading-container{
+        display: block;
+        font-size: 20px;
+    }
+    .heading-text{
+        margin: 0;
+        padding: 0px 30px;
+    }
+    .budget{
+        font-size: 30px;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    .navbar a{
+        display: none;
+    }
+    .menubar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-bars{
+        color: limegreen;
+        cursor: pointer;
+        caret-color: transparent;
+    }
+    .spin{
+        transform: rotate(360deg);
+        transition: 0.3s;
+    }
+    .show-mobile-nav{
+        display:block;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center
+    }
+    .show-mobile-nav a{
+        width: 100%;
+        margin: 10px 15px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: limegreen;
+        color: white;
+        font-weight: 600;
+    }
+    .toggle-bar-margin{
+        margin: 0 15px
+    }
+}
